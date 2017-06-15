@@ -1,0 +1,13 @@
+参考搭建springmvc框架：
+http://www.cnblogs.com/Sinte-Beuve/p/5730553.html
+
+配置maven插件：
+maven插件的话有tomcat和jetty，两者都是servlet的容器。我这里配置的是jetty。插件已经在pom.xml中配置完成了。
+         <plugins>
+            <!--servlet容器 jetty插件-->
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.3.10.v20160621</version>
+            </plugin>
+        </plugins>
