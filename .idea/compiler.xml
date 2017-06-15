@@ -7,12 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springbootsession" />
-        <module name="springmvcsession" />
+        <module name="springmvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springbootsession" target="1.5" />
       <module name="springdemo" target="1.5" />
+      <module name="springmvc" target="1.5" />
       <module name="springmvcsession" target="1.5" />
     </bytecodeTargetLevel>
   </component>

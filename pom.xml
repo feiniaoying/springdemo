@@ -11,7 +11,8 @@
 
     <modules>
         <module>springbootsession</module>
-        <module>springmvcsession</module>
+        <module>springmvc</module>
+        <module>springmvc</module>
     </modules>
 
     <properties>
