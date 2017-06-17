@@ -16,7 +16,7 @@ public class EncacheTest {
 
     @Test
     public void testEhcache() throws IOException {
-        String resource = "encache.xml";
+        String resource = "ehcache.xml";
         InputStream inputStream = Resources.getResourceAsStream(resource);
 
 

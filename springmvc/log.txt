@@ -313,3 +313,61 @@
 2017-06-17 17:57:13,874 [main] [net.sf.ehcache.Cache] [DEBUG] - Initialised cache: helloCache
 2017-06-17 17:57:13,875 [main] [net.sf.ehcache.config.ConfigurationHelper] [DEBUG] - CacheDecoratorFactory not configured. Skipping for 'helloCache'.
 2017-06-17 17:57:13,875 [main] [net.sf.ehcache.config.ConfigurationHelper] [DEBUG] - CacheDecoratorFactory not configured for defaultCache. Skipping for 'helloCache'.
+2017-06-17 18:25:53,298 [main] [net.sf.ehcache.config.ConfigurationFactory] [DEBUG] - Configuring ehcache from InputStream
+2017-06-17 18:25:53,503 [main] [net.sf.ehcache.config.DiskStoreConfiguration] [DEBUG] - Disk Store Path: C:\Users\feini\AppData\Local\Temp\
+2017-06-17 18:25:53,606 [main] [net.sf.ehcache.CacheManager] [DEBUG] - Creating new CacheManager with InputStream
+2017-06-17 18:25:53,612 [main] [net.sf.ehcache.util.PropertyUtil] [DEBUG] - propertiesString is null.
+2017-06-17 18:25:53,680 [main] [net.sf.ehcache.config.ConfigurationHelper] [DEBUG] - No CacheManagerEventListenerFactory class specified. Skipping...
+2017-06-17 18:25:58,091 [main] [net.sf.ehcache.Cache] [DEBUG] - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-06-17 18:25:58,091 [main] [net.sf.ehcache.Cache] [DEBUG] - CacheWriter factory not configured. Skipping...
+2017-06-17 18:25:58,091 [main] [net.sf.ehcache.config.ConfigurationHelper] [DEBUG] - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-06-17 18:25:58,109 [main] [net.sf.ehcache.Cache] [DEBUG] - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-06-17 18:25:58,109 [main] [net.sf.ehcache.Cache] [DEBUG] - CacheWriter factory not configured. Skipping...
+2017-06-17 18:25:58,110 [main] [net.sf.ehcache.config.ConfigurationHelper] [DEBUG] - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-06-17 18:25:58,131 [main] [net.sf.ehcache.Cache] [DEBUG] - No BootstrapCacheLoaderFactory class specified. Skipping...
+2017-06-17 18:25:58,131 [main] [net.sf.ehcache.Cache] [DEBUG] - CacheWriter factory not configured. Skipping...
+2017-06-17 18:25:58,131 [main] [net.sf.ehcache.config.ConfigurationHelper] [DEBUG] - No CacheExceptionHandlerFactory class specified. Skipping...
+2017-06-17 18:25:58,218 [main] [net.sf.ehcache.DiskStorePathManager] [DEBUG] - Using diskstore path C:\Users\feini\AppData\Local\Temp
+2017-06-17 18:25:58,218 [main] [net.sf.ehcache.DiskStorePathManager] [DEBUG] - Holding exclusive lock on C:\Users\feini\AppData\Local\Temp\.ehcache-diskstore.lock
+2017-06-17 18:25:58,219 [main] [net.sf.ehcache.store.disk.DiskStorageFactory] [DEBUG] - Failed to delete file com%002echenwt%002eentity%002e%0055ser.data
+2017-06-17 18:25:58,220 [main] [net.sf.ehcache.store.disk.DiskStorageFactory] [DEBUG] - Failed to delete file com%002echenwt%002eentity%002e%0055ser.index
+2017-06-17 18:25:58,244 [main] [net.sf.ehcache.store.disk.DiskStorageFactory] [DEBUG] - Matching data file missing (or empty) for index file. Deleting index file C:\Users\feini\AppData\Local\Temp\com%002echenwt%002eentity%002e%0055ser.index
+2017-06-17 18:25:58,252 [main] [net.sf.ehcache.store.disk.DiskStorageFactory] [DEBUG] - Failed to delete file com%002echenwt%002eentity%002e%0055ser.index
+2017-06-17 18:25:58,537 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-06-17 18:25:58,541 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-06-17 18:25:58,543 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-06-17 18:25:58,546 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-06-17 18:25:58,547 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-06-17 18:25:58,593 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: OFFHEAP_GET
+2017-06-17 18:25:58,597 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: OFFHEAP_PUT
+2017-06-17 18:25:58,598 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-06-17 18:25:58,602 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: XA_COMMIT
+2017-06-17 18:25:58,603 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: XA_ROLLBACK
+2017-06-17 18:25:58,603 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: XA_RECOVERY
+2017-06-17 18:25:58,607 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: CLUSTER_EVENT
+2017-06-17 18:25:58,608 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: NONSTOP
+2017-06-17 18:25:58,641 [main] [net.sf.ehcache.Cache] [DEBUG] - Initialised cache: com.chenwt.entity.User
+2017-06-17 18:25:58,641 [main] [net.sf.ehcache.config.ConfigurationHelper] [DEBUG] - CacheDecoratorFactory not configured. Skipping for 'com.chenwt.entity.User'.
+2017-06-17 18:25:58,642 [main] [net.sf.ehcache.config.ConfigurationHelper] [DEBUG] - CacheDecoratorFactory not configured for defaultCache. Skipping for 'com.chenwt.entity.User'.
+2017-06-17 18:25:58,688 [main] [net.sf.ehcache.store.MemoryStore] [DEBUG] - Initialized net.sf.ehcache.store.MemoryStore for helloCache
+2017-06-17 18:25:58,696 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE
+2017-06-17 18:25:58,697 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: LOCAL_OFFHEAP_SIZE_BYTES
+2017-06-17 18:25:58,697 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE
+2017-06-17 18:25:58,698 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: LOCAL_DISK_SIZE_BYTES
+2017-06-17 18:25:58,698 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: WRITER_QUEUE_LENGTH
+2017-06-17 18:25:58,699 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: REMOTE_SIZE
+2017-06-17 18:25:58,699 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Pass-Through Statistic: LAST_REJOIN_TIMESTAMP
+2017-06-17 18:25:58,704 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: OFFHEAP_GET
+2017-06-17 18:25:58,707 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: OFFHEAP_PUT
+2017-06-17 18:25:58,713 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: OFFHEAP_REMOVE
+2017-06-17 18:25:58,713 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: DISK_GET
+2017-06-17 18:25:58,714 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: DISK_PUT
+2017-06-17 18:25:58,714 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: DISK_REMOVE
+2017-06-17 18:25:58,715 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: XA_COMMIT
+2017-06-17 18:25:58,716 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: XA_ROLLBACK
+2017-06-17 18:25:58,717 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: XA_RECOVERY
+2017-06-17 18:25:58,719 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: CLUSTER_EVENT
+2017-06-17 18:25:58,720 [main] [net.sf.ehcache.statistics.extended.ExtendedStatisticsImpl] [DEBUG] - Mocking Operation Statistic: NONSTOP
+2017-06-17 18:25:58,730 [main] [net.sf.ehcache.Cache] [DEBUG] - Initialised cache: helloCache
+2017-06-17 18:25:58,731 [main] [net.sf.ehcache.config.ConfigurationHelper] [DEBUG] - CacheDecoratorFactory not configured. Skipping for 'helloCache'.
+2017-06-17 18:25:58,731 [main] [net.sf.ehcache.config.ConfigurationHelper] [DEBUG] - CacheDecoratorFactory not configured for defaultCache. Skipping for 'helloCache'.
