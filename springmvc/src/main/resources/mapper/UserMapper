@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.springmvc.dao.UserDao">
+
+    <parameterMap id="parameterMap" type="com.chenwt.entity.User"></parameterMap>
+    <resultMap id="resultMap" type="com.chenwt.entity.User">
+        <result property="id" column="id"/>
+        <result property="age" column="age"/>
+        <result property="isDeleted" column="is_deleted"/>
+        <result property="nickName" column="nick_name"/>
+        <result property="passWord" column="password"/>
+        <result property="state" column="state"/>
+        <result property="userName" column="username"/>
+
+    </resultMap>
+
+    <sql id="columnSql">
+        <trim suffixOverrides=",">
+            t.id,
+            t.age,
+            t.is_deleted,
+            t.nick_name,
+            t.password,
+            t.state,
+            t.username,
+        </trim>
+    </sql>
+
+    <select id="findByUsernameAndPwd" resultMap="resultMap">
+        SELECT
+        <include refid="columnSql"></include>
+        FROM t_user t
+        WHERE t.username = #{userName} and t.password = #{passWord}
+    </select>
+
+
+</mapper>
